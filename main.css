@@ -1,7 +1,24 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 h1 span{
     color:orange;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+}
+.top-banner{
+    border: 1px solid red;
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
 }
