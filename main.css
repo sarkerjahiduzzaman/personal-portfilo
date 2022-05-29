@@ -1,9 +1,18 @@
 body{
     margin: 0;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 span{
     color:orange;
+}
+h1{
+    font-size: 50px;
+}
+h3 span{
+    color: orangered;
+}
+h2{
+    font-size: 40px;
 }
 .half-width{
     float: left;
@@ -16,9 +25,52 @@ h1 span{
 }
 section{
     height: 500px;
+    margin-bottom: 50px;
 }
 .top-banner{
-    border: 1px solid red;
     background-image: url("top-banner.png");
     background-repeat: no-repeat;
+}
+.bottom-border{
+   background-image: url("dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: right;
+
+}
+.btn-div{
+    margin-top: 40px;
+
+}
+.btn{
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    
+}
+.width-e{
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+}
+.box-area{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+   
+}
+.box-div{ 
+    background-image: url("exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#single-page{
+    border-left: 7px solid black;
+}
+#anoter-page{
+    border-left: 7px solid green;
 }
